@@ -1,0 +1,12 @@
+{
+    "name": "MD380 Programmer",
+    "description": "Lets you program your Tytera/Retevis MD-380 using the web",
+    "version": "0.1",
+    "manifest_version": 2,
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "permissions": ["usb", { "usbDevices": [ { "vendorId": 1155, "productId": 57105 } ] } ]
+}
